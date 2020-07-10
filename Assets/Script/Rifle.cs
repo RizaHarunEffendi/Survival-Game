@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Rifle : MonoBehaviour {
-	int _damageDealt = 25;
+	int _damageDealt = 50;
 	// Use this for initialization
 	void Start () {
 		Screen.lockCursor = true;

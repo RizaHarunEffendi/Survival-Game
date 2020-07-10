@@ -9,7 +9,7 @@ public class EnemyAnimation : MonoBehaviour {
 		_animation = GetComponentInChildren<Animation> ();
 
 		string animationToPlay = "";
-		switch (Random.Range (0, 3)){
+		switch (Random.Range (1, 3)){
 		case 0:
 			animationToPlay = "Move1";
 			break;
